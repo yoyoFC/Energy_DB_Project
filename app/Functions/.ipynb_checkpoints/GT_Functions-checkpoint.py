@@ -59,7 +59,7 @@ def scrapping_ERCOT():
 #Function: This function stablish a database connection and execute a query.
 #return a dataframe
 def Execute_query(vQuery):
-    connection = psycopg2.connect(host=config.DB_HOST, user=config.DB_USER, password=config.DB_PASS,                                        database=config.DB_NAME)
+    connection = psycopg2.connect(host=st.secrets["DB_HOST"], user=st.secrets["DB_USER"], password=st.secrets["DB_PASS"],                                        database=st.secrets["DB_NAME"])
     cursor = connection.cursor(cursor_factory=psycopg2.extras.DictCursor)
     cursor.execute(vQuery)
     result = cursor.fetchall()  
