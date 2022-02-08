@@ -89,7 +89,7 @@ with col1:
     fig.update_layout(
         hovermode='closest',
         margin=dict(t=0,b=0,l=0, r=0),
-        width=780, height=700,
+        width=750, height=700,
         mapbox=dict(
             accesstoken=st.secrets["mapbox_access_token"],
             bearing=0,

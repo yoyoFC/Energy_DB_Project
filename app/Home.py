@@ -32,7 +32,7 @@ with st.container():
   
 st.subheader(introduction_1)
 st.subheader(introduction_2)
-st.markdown("<h1 style='text-align: left; color: green;'>The Green Team</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: green;'>JFC</h1>", unsafe_allow_html=True)
 st.text("Jun 2021 - Feb 2022")
 Logo_img = gt_func.load_lottieurl(Logo)
 st_lottie(Logo_img, key="img")
