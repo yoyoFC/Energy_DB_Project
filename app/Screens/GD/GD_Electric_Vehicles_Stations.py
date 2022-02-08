@@ -91,7 +91,7 @@ with col1:
         margin=dict(t=0,b=0,l=0, r=0),
         width=780, height=700,
         mapbox=dict(
-            accesstoken=config.mapbox_access_token,
+            accesstoken=st.secrets["mapbox_access_token"],
             bearing=0,
             center=go.layout.mapbox.Center(
                 lat=30.33,
