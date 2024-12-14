@@ -4,3 +4,4 @@ numpy==1.21.5
 streamlit-lottie==0.0.3
 plotly.express==0.4.1
 psycopg2-binary==2.9.3
+protobuf<4.0
